@@ -1,6 +1,18 @@
-guide_michelin_accueil:
-  path: /accueil/{name}
-  controller: App\Controller\AccueilController::afficher
 guide_michelin_menu:
   path: /menu
   controller: App\Controller\MenuController:afficher
+guide_michelin_accueil:
+  path: /accueil/{name?}
+  controller: App\Controller\AccueilController::afficher
+guide_michelin_voir:
+  path: /voir/{id}
+  controller: App\Controller\AccueilController::voir
+  requirements:
+    id: \d+
+guide_michelin_ajouter:
+  path: /ajouter/{nom}/{chef}/{nbreEtoile}
+  controller: App\Controller\AccueilController::ajouter
+  requirements:
+    nom: .+
+    chef: .+
+    nbreEtoile: \d+
