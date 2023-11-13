@@ -146,7 +146,4 @@ Adding the variable ***name*** to the twig template in ***`templates/guide/accue
 ```
 
 → Test `[http://localhost:8000/guideMichelin/accueil/pasha](http://localhost:8080/guideMichelin/accueil/pasha)` 
-
-![Untitled](Framework%20-%20Symfony%205%204%20355ab3ce2d864a64833c54d8f3b2d31d/Untitled.png)
-
 ---
