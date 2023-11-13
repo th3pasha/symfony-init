@@ -1,6 +1,6 @@
 # Framework - Symfony 5.4
 
-The symfony framework is an MVC based web framework, based on the PHP programming language, that uses Composer as a package manager
+The symfony framework is an MVC based web framework, based on the PHP programming language, that uses Composer as a dependency manager
 
 > Prerequisities : **
 > 
