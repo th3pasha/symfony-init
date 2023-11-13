@@ -1,0 +1,6 @@
+guide_michelin_accueil:
+  path: /accueil/{name}
+  controller: App\Controller\AccueilController::afficher
+guide_michelin_menu:
+  path: /menu
+  controller: App\Controller\MenuController:afficher
